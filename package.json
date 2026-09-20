@@ -1,6 +1,6 @@
 {
   "name": "siyuan-plugin-send2kindle",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Send SiYuan documents to Kindle as EPUB via Send-to-Kindle email / 将思源笔记文档一键发送到 Kindle",
   "type": "module",
   "main": "dist/index.js",

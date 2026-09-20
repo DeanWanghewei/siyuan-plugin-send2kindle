@@ -2,7 +2,7 @@
   "name": "siyuan-plugin-send2kindle",
   "author": "Dean Wang",
   "url": "https://github.com/DeanWanghewei/siyuan-plugin-send2kindle",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "minAppVersion": "3.8.0",
   "disabledInPublish": false,
   "backends": [
