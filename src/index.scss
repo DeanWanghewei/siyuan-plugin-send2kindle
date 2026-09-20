@@ -1,0 +1,26 @@
+.s2k-dialog {
+    padding: 16px 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+    height: 100%;
+    box-sizing: border-box;
+}
+
+.s2k-dialog .s2k-row {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+
+.s2k-dialog .s2k-label {
+    width: 72px;
+    flex-shrink: 0;
+    color: var(--b3-theme-on-surface);
+    font-size: 13px;
+}
+
+.s2k-dialog .s2k-actions {
+    margin-top: auto;
+    gap: 8px;
+}

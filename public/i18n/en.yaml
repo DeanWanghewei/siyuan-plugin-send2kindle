@@ -1,0 +1,49 @@
+addToTopBar: Send to Kindle
+sendToKindle: Send to Kindle…
+sendCurrentDoc: Send current document to Kindle
+dialogTitle: Send Current Page to Kindle
+bookTitle: Book title
+splitLevel: Chapter split
+splitNone: No split (single chapter)
+sendBtn: Send
+saveLocalBtn: Save local EPUB
+cancelBtn: Cancel
+exporting: Exporting document…
+buildingEpub: Building EPUB…
+sending: Sending to Kindle…
+sendSuccess: "✅ Sent. It will sync once your Kindle is online"
+savedLocal: EPUB saved
+testEmailSuccess: "✅ Test email sent, please check your inbox"
+settingsMissing: Please configure the Kindle address and SMTP server in plugin settings first
+invalidKindleAddr: Invalid Kindle address (expected like xxx@kindle.com or xxx@kindle.cn)
+smtpAuthFailed: SMTP authentication failed — check the account and authorization code (use an app password, not your login password)
+smtpRejected: Email rejected — make sure the sender address is on the Amazon "Approved Personal Document E-mail List"
+smtpAddrNotExist: Recipient rejected — check the @kindle.com / @kindle.cn address spelling and that its Send-to-Kindle service is active
+smtpConnectFailed: Cannot connect to the SMTP server — check host, port and encryption
+noNodeEnv: Desktop only — this environment cannot send email directly. Use "Save local EPUB" instead
+noDocOpen: Please open a document first
+epubTooLarge: The EPUB exceeds 45MB (email attachment limit). Reduce images or split the document
+optKindleAddr: Kindle address
+optKindleAddrDesc: "Like xxx_xxx@kindle.com, find it on Amazon Manage Your Content & Devices"
+optSmtpHost: SMTP server
+optSmtpHostDesc: "QQ smtp.qq.com / 163 smtp.163.com / Gmail smtp.gmail.com"
+optSmtpPort: SMTP port
+optSmtpPortDesc: "SSL usually 465, STARTTLS usually 587"
+optSmtpEncryption: Encryption
+optSmtpEncryptionDesc: Match the port
+optEncSsl: SSL (implicit TLS)
+optEncStarttls: STARTTLS
+optEncNone: None (not recommended)
+optSmtpUser: SMTP account
+optSmtpUserDesc: The sender email address
+optSmtpPassword: SMTP authorization code
+optSmtpPasswordDesc: The app-specific code from your email provider, not your login password
+optSenderName: Sender display name
+optSenderNameDesc: Optional
+optBookAuthor: Book author metadata
+optBookAuthorDesc: Written into EPUB dc:creator, optional
+optSplitLevel: Default chapter split level
+optSplitLevelDesc: Split the document into chapters by this heading level
+optTestEmail: Send test email
+optTestEmailDesc: Send a plain-text email with the current config to verify SMTP and the Kindle approved list
+securityHint: "Security note: the authorization code is stored in plaintext under workspace data/storage — use an app-specific code. Before sending, add the sender address to Amazon \"Manage Your Content and Devices → Preferences → Personal Document Settings\" approved list."

@@ -1,0 +1,49 @@
+addToTopBar: 发送到 Kindle
+sendToKindle: 发送到 Kindle…
+sendCurrentDoc: 发送当前文档到 Kindle
+dialogTitle: 发送当前页面到 Kindle
+bookTitle: 书名
+splitLevel: 章节切分
+splitNone: 不分章（单章）
+sendBtn: 发送
+saveLocalBtn: 保存为本地 EPUB
+cancelBtn: 取消
+exporting: 正在导出文档…
+buildingEpub: 正在组装 EPUB…
+sending: 正在发送到 Kindle…
+sendSuccess: "✅ 已发送，Kindle 联网后会自动同步"
+savedLocal: EPUB 已保存
+testEmailSuccess: "✅ 测试邮件已发送，请查收"
+settingsMissing: 请先在插件设置中配置 Kindle 地址与 SMTP 服务器
+invalidKindleAddr: "Kindle 地址格式不正确（如 xxx@kindle.com 或 xxx@kindle.cn）"
+smtpAuthFailed: SMTP 认证失败：请检查邮箱账号与授权码（注意使用专用授权码而非登录密码）
+smtpRejected: 邮件被拒收：请确认发件邮箱已加入 Amazon「已批准的个人文档发件邮箱」列表
+smtpAddrNotExist: Kindle 收件地址被拒：请确认 @kindle.com / @kindle.cn 地址拼写正确，且该账号的「发送至 Kindle」服务可用（亚马逊中国 Kindle 商店已停运，部分 @kindle.cn 地址可能已失效）
+smtpConnectFailed: 无法连接 SMTP 服务器：请检查服务器地址、端口与加密方式
+noNodeEnv: 仅桌面端可用：当前环境无法直接发信，请改用「保存为本地 EPUB」
+noDocOpen: 请先打开一个文档
+epubTooLarge: EPUB 体积超过 45MB，超出邮件附件限制，请减少图片或拆分文档
+optKindleAddr: Kindle 接收地址
+optKindleAddrDesc: "形如 xxx_xxx@kindle.com 或 xxx@kindle.cn，在 Amazon「设备和内容管理」页可查"
+optSmtpHost: SMTP 服务器
+optSmtpHostDesc: "QQ 邮箱 smtp.qq.com / 163 邮箱 smtp.163.com / Gmail smtp.gmail.com"
+optSmtpPort: SMTP 端口
+optSmtpPortDesc: "SSL 通常 465，STARTTLS 通常 587"
+optSmtpEncryption: 加密方式
+optSmtpEncryptionDesc: 与端口匹配
+optEncSsl: SSL（隐式 TLS）
+optEncStarttls: STARTTLS
+optEncNone: 不加密（不推荐）
+optSmtpUser: SMTP 账号
+optSmtpUserDesc: 即发件邮箱地址
+optSmtpPassword: SMTP 授权码
+optSmtpPasswordDesc: 邮箱服务商生成的专用授权码，不是登录密码
+optSenderName: 发件人显示名
+optSenderNameDesc: 可留空
+optBookAuthor: 书籍作者元数据
+optBookAuthorDesc: 写入 EPUB 的 dc:creator，可留空
+optSplitLevel: 默认章节切分级别
+optSplitLevelDesc: 按几级标题把文档切成多章
+optTestEmail: 发送测试邮件
+optTestEmailDesc: 用当前配置发一封纯文本邮件验证 SMTP 与 Kindle 白名单
+securityHint: "安全提示：授权码以明文保存在工作区 data/storage 目录，请使用专用授权码；发送前需在 Amazon「管理内容和设备 → 首选项 → 个人文档设置」中把发件邮箱加入已批准列表。"

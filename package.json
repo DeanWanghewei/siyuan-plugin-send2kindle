@@ -1,0 +1,51 @@
+{
+  "name": "siyuan-plugin-send2kindle",
+  "version": "0.1.0",
+  "description": "Send SiYuan documents to Kindle as EPUB via Send-to-Kindle email / 将思源笔记文档一键发送到 Kindle",
+  "type": "module",
+  "main": "dist/index.js",
+  "scripts": {
+    "dev": "pnpm run clean && cross-env NODE_ENV=development VITE_SOURCEMAP=inline vite build --watch",
+    "check": "pnpm run check:types",
+    "check:types": "tsc --noEmit -p tsconfig.json && tsc --noEmit -p tsconfig.node.json",
+    "clean": "node ./scripts/clean.js",
+    "build": "pnpm run clean && pnpm run build:app",
+    "build:app": "cross-env NODE_ENV=production vite build",
+    "make-link": "node --no-warnings ./scripts/make_dev_link.js",
+    "make-link-win": "powershell.exe -NoProfile -ExecutionPolicy Bypass -File ./scripts/elevate.ps1 -scriptPath ./scripts/make_dev_link.js",
+    "make-install": "pnpm run build && node --no-warnings ./scripts/make_install.js",
+    "update-version": "node --no-warnings ./scripts/update_version.js",
+    "test": "node test/run.mjs"
+  },
+  "keywords": [
+    "siyuan",
+    "plugin",
+    "kindle",
+    "epub",
+    "send-to-kindle"
+  ],
+  "author": "Dean Wang",
+  "license": "MIT",
+  "dependencies": {
+    "jszip": "^3.10.1",
+    "markdown-it": "^14.1.0"
+  },
+  "devDependencies": {
+    "@types/livereload": "^0.9.3",
+    "@types/markdown-it": "^14.1.2",
+    "@types/node": "^20.14.9",
+    "cross-env": "^7.0.3",
+    "fast-glob": "^3.3.2",
+    "glob": "^10.4.2",
+    "js-yaml": "^4.1.0",
+    "livereload": "^0.9.3",
+    "minimist": "^1.2.8",
+    "sass": "^1.77.6",
+    "siyuan": "1.2.5",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.5.3",
+    "vite": "^5.4.21",
+    "vite-plugin-static-copy": "^2.3.2",
+    "vite-plugin-zip-pack": "^1.2.0"
+  }
+}

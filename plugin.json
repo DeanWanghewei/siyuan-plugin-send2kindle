@@ -1,0 +1,36 @@
+{
+  "name": "siyuan-plugin-send2kindle",
+  "author": "Dean Wang",
+  "url": "https://github.com/DeanWanghewei/siyuan-plugin-send2kindle",
+  "version": "0.1.0",
+  "minAppVersion": "3.8.0",
+  "disabledInPublish": false,
+  "backends": [
+    "windows",
+    "linux",
+    "darwin"
+  ],
+  "frontends": [
+    "desktop",
+    "desktop-window"
+  ],
+  "displayName": {
+    "default": "Send to Kindle",
+    "zh-CN": "发送到 Kindle"
+  },
+  "description": {
+    "default": "Send SiYuan documents to your Kindle as EPUB via Send-to-Kindle email. Configure your Kindle address and SMTP account, then one click to deliver.",
+    "zh-CN": "将思源笔记文档一键转换为 EPUB 并通过 Send-to-Kindle 邮件发送到 Kindle 设备。配置 Kindle 地址与 SMTP 发件账号即可使用。"
+  },
+  "readme": {
+    "default": "README.md",
+    "zh-CN": "README.zh_CN.md"
+  },
+  "icon": "icon.png",
+  "keywords": [
+    "kindle",
+    "epub",
+    "send-to-kindle",
+    "阅读"
+  ]
+}
